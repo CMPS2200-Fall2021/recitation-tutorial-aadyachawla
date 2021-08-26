@@ -1,7 +1,7 @@
 def sum_of_squares(a):
         total = 0
         for i in a:
-                total += (a.index(i) * a.index(i))
+                total += i*i
         return total
 
 def test_one():
